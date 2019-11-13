@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HeatClinicSuite]">
+  <listeners>
+    <listener class-name="com.atmecs.jenkins_parameter.extentreport.ExtentReportGenerater"/>
+  </listeners>
+  <test thread-count="5" name="VerifyCartTest(failed)">
+    <classes>
+      <class name="com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic">
+        <methods>
+          <include name="webURLLoader"/>
+          <include name="verifyHeatClinic"/>
+          <include name="endDriver"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic -->
+    </classes>
+  </test> <!-- VerifyCartTest(failed) -->
+</suite> <!-- Failed suite [HeatClinicSuite] -->

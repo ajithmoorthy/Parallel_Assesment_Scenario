@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NinjaStoreSuite">
+	<listeners>
+		<listener
+			class-name="com.atmecs.jenkins_parameter.extentreport.ExtentReportGenerater"></listener>
+	</listeners>
+	<test name="VerifyProductAndCartTest">
+		<classes>
+			<class
+				name="com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore" />
+		</classes>
+	</test> <!-- Test -->
+</suite>

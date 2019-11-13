@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NinjaStoreSuite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.atmecs.jenkins_parameter.extentreport.ExtentReportGenerater"/>
+  </listeners>
+  <test thread-count="5" name="VerifyProductAndCartTest(failed)" verbose="0">
+    <classes>
+      <class name="com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore">
+        <methods>
+          <include name="webURLLoader"/>
+          <include name="verifyNinjaStore"/>
+          <include name="endDriver"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore -->
+    </classes>
+  </test> <!-- VerifyProductAndCartTest(failed) -->
+</suite> <!-- Failed suite [NinjaStoreSuite] -->

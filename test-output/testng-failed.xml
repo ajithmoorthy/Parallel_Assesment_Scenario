@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" name="Failed suite [mysuite]" parallel="tests">
+  <test thread-count="20" name="Test validate IEcom.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore(failed)" parallel="tests">
+    <parameter name="Browser" value="MY,IE"/>
+    <classes>
+      <class name="com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore">
+        <methods>
+          <include name="webURLLoader"/>
+          <include name="verifyNinjaStore"/>
+          <include name="endDriver"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore -->
+    </classes>
+  </test> <!-- Test validate IEcom.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore(failed) -->
+</suite> <!-- Failed suite [mysuite] -->

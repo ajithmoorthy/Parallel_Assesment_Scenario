@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore">
+        <methods>
+          <include name="webURLLoader"/>
+          <include name="verifyNinjaStore"/>
+          <include name="endDriver"/>
+          <include name="baseSetup"/>
+        </methods>
+      </class> <!-- com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

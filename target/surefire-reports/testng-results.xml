@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-13T10:27:09Z" name="NinjaStoreSuite" finished-at="2019-11-13T10:28:20Z" duration-ms="70877">
+    <groups>
+    </groups>
+    <test started-at="2019-11-13T10:27:09Z" name="VerifyProductAndCartTest" finished-at="2019-11-13T10:28:20Z" duration-ms="70877">
+      <class name="com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore">
+        <test-method is-config="true" signature="baseSetup()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore@4c371370]" started-at="2019-11-13T10:27:09Z" name="baseSetup" finished-at="2019-11-13T10:27:18Z" duration-ms="8747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method is-config="true" signature="webURLLoader()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore@4c371370]" started-at="2019-11-13T10:27:18Z" name="webURLLoader" finished-at="2019-11-13T10:27:26Z" duration-ms="8033" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webURLLoader -->
+        <test-method signature="verifyNinjaStore()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore@4c371370]" started-at="2019-11-13T10:27:26Z" name="verifyNinjaStore" finished-at="2019-11-13T10:28:17Z" duration-ms="51836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNinjaStore -->
+        <test-method is-config="true" signature="endDriver()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore@4c371370]" started-at="2019-11-13T10:28:18Z" name="endDriver" finished-at="2019-11-13T10:28:20Z" duration-ms="1589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.jenkins_parameter.testscripts.TestVerifyNinjaStore -->
+    </test> <!-- VerifyProductAndCartTest -->
+  </suite> <!-- NinjaStoreSuite -->
+  <suite started-at="2019-11-13T10:28:21Z" name="HeatClinicSuite" finished-at="2019-11-13T10:28:47Z" duration-ms="26611">
+    <groups>
+    </groups>
+    <test started-at="2019-11-13T10:28:21Z" name="VerifyCartTest" finished-at="2019-11-13T10:28:47Z" duration-ms="26611">
+      <class name="com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic">
+        <test-method is-config="true" signature="baseSetup()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic@3590fc5b]" started-at="2019-11-13T10:28:21Z" name="baseSetup" finished-at="2019-11-13T10:28:27Z" duration-ms="6027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseSetup -->
+        <test-method is-config="true" signature="webURLLoader()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic@3590fc5b]" started-at="2019-11-13T10:28:27Z" name="webURLLoader" finished-at="2019-11-13T10:28:32Z" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- webURLLoader -->
+        <test-method signature="verifyHeatClinic()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic@3590fc5b]" started-at="2019-11-13T10:28:32Z" name="verifyHeatClinic" finished-at="2019-11-13T10:28:45Z" duration-ms="12909" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHeatClinic -->
+        <test-method is-config="true" signature="endDriver()[pri:0, instance:com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic@3590fc5b]" started-at="2019-11-13T10:28:46Z" name="endDriver" finished-at="2019-11-13T10:28:47Z" duration-ms="1615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endDriver -->
+      </class> <!-- com.atmecs.jenkins_parameter.testscripts.TestVerifyHeatClinic -->
+    </test> <!-- VerifyCartTest -->
+  </suite> <!-- HeatClinicSuite -->
+  <suite started-at="2019-11-13T10:28:48Z" name="HeatAndNinjaSuite" finished-at="2019-11-13T10:28:48Z" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- HeatAndNinjaSuite -->
+</testng-results>
