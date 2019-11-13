@@ -3516,3 +3516,6 @@ Right out of the box, you can have a video chat with friends or family,2 record 
 2019-11-13 21:03:29 INFO  LogReporter:21 - Actual Value :14.99 and Expected :14.99 is validated successfully
 2019-11-13 21:03:29 INFO  LogReporter:21 - Actual Value :44.97 and Expected :44.97 is validated successfully
 2019-11-13 21:03:38 INFO  LogReporter:21 - Actual Value :3,606.00 and Expected :3,606.00 is validated successfully
+2019-11-13 23:01:59 INFO  LogReporter:21 - STEP 1: Starting browser :CHROME
+2019-11-13 23:02:00 INFO  LogReporter:21 - STEP 2: URL is loaedhttp://10.10.10.232:8080/
+2019-11-13 23:02:00 INFO  LogReporter:21 - STEP 3: Validate all the Menu
